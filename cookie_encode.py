@@ -2,7 +2,7 @@ from flask import Flask, url_for, render_template, abort, send_file, request, re
 inputed_key = input("Flask session key:")
 inputed_ckey= input("Cookie key: ")
 inputed_val = input("Cookie value: ")
-print("Decoding...")
+print("Encoding...")
 app = Flask(__name__)
 app.secret_key = inputed_key
 
